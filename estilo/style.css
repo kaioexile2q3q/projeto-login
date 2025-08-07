@@ -30,6 +30,9 @@ section#login {
     border-radius: 20px;
     overflow: hidden;/*Tudo oque estiver fora da borda é escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transition: width 1s, height 1s;/*Animação para quando for aumentar e diminuir a tela*/
+    transition-timing-function: ease;/*Suavizada durante a animação*/
+    
 }
 
 section#login > div#imagem {
