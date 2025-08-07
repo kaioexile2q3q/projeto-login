@@ -26,14 +26,22 @@
         width: 950px;
     }
     section#login > div#imagem {
-        float: left;
+        float: right; /*Onde fica a imagem*/
         width: 50%;
         height: 100%;
         background-size: cover;
     }
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
+    div#formulario > h1 {
+    text-align: center;
+    margin-bottom: top;
+    font-size: 2em;
+}
+    div#formulario > p {
+    font-size: 1.2em;
+}
     
 }
