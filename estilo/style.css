@@ -49,10 +49,24 @@ section#login > div#imagem {
 div.campo > label {
     display: none;
 } 
+div.campo > i {
+    color: white;
+   
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
 div#formulario > h1 {
     text-align: center;
     margin-bottom: top;
+    
+
 }
+div.campo> input {
+    background-color: #53bebb;
+}
+
 div#formulario > p {
     font-size: 0.8em;
 }
@@ -62,6 +76,12 @@ form > div.campo {
     height: 47px;
     border-radius: 5px;
     margin: 2px 0px;
+    border: 2px solid #53bebb;
+}
+div.campo > input:focus-within /*Quando eu digitar*/ {
+    background-color: white;
+    border: none;
+
 }
 form > input[type=submit] {
     display: block;
